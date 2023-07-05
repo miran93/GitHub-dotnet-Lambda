@@ -43,4 +43,4 @@ jobs:
           zip -r ../lambda-package.zip .
 
       - name: Deploy to Lambda
-        run: aws lambda update-function-code --function-name YourLambdaFunctionName --zip-file fileb://lambda-package.zip
+        run: aws lambda update-function-code --function-name dotnet-github --zip-file fileb://lambda-package.zip
